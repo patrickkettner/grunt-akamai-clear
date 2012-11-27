@@ -1,0 +1,42 @@
+{
+  "name": "grunt-akamai-clear",
+  "description": "Request Akamai purge/invalidation.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/patrickkettner/grunt-akamai-clear",
+  "author": {
+    "name": "Patrick Kettner",
+    "email": "patrickkettner@gmail.com",
+    "url": "http://github.com/patrickkettner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/patrickkettner/grunt-akamai-clear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickkettner/grunt-akamai-clear/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/patrickkettner/grunt-akamai-clear/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "bin": "bin/grunt-akamai-clear",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0a",
+    "akamai": "0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0a"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
